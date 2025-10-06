@@ -51,7 +51,7 @@ file!
 Here's a glance at how the database is set up.
 
 ```mermaid
-erDiagram
+Diagram
     users {
         INTEGER id PK "Primary Key"
         TEXT username "Unique"

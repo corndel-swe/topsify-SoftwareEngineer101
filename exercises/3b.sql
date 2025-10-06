@@ -2,3 +2,4 @@
 -- Find the 4th page
 -- Include all columns
 SELECT * FROM albums
+FETCH 10

@@ -40,7 +40,7 @@ at the top of the file. This makes `sqlite3` output the results as JSON.
 Now, run
 
 ```bash
-sqlite3 db/db.sqlite < queries/artists.sql > reports/artists.json
+sqlite3 db/db.sqlite < queries/chart-1.sql > reports/chart-1.json
 ```
 
 and open `reports/example.json`. Your query results are now saved in a JSON

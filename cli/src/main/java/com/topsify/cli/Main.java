@@ -13,18 +13,13 @@ public class Main {
 
 
     public static <JSONFileReader> void main(String[] args) throws IOException {
-//        System.out.println("Hello World!");
+
         Path fileName;
         fileName = Paths.get("src", "reports/users_json");
-
-
-
+        
 
         try {
             ObjectMapper objectMapper = new ObjectMapper();
-            objectMapper.readValue()
-            List<User> users = new ArrayList<>();
-
 
         }
 

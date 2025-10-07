@@ -16,7 +16,7 @@ public class Main {
 
         Path fileName;
         fileName = Paths.get("src", "reports/users_json");
-        
+
 
         try {
             ObjectMapper objectMapper = new ObjectMapper();

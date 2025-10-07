@@ -49,9 +49,9 @@ works.
 
 ## Chart 2: Album characteristics
 
-Visiting `/charts/2.html` should show a radar chart for each album summarising
+ should show a radar chart for each album summarising
 its average characteristics. The axes of the radar chart are
-
+Visiting `/charts/2.html`
 - danceability
 - energy
 - speechiness

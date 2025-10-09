@@ -8,10 +8,10 @@
 
 -- Could you write the SQL to set up this junction table?
 --DROP TABLE IF EXISTS track_genres
+
 CREATE TABLE track_genres (
-  id INTEGER PRIMARY KEY AUTOINCREMENT
-  track_id TEXT NOT NULL
-  genre_id INTEGER
-  FOREIGN KEY (track_id) REFERENCES tracks(id)
+  track_id TEXT NOT NULL,
+  genre_id INTEGER,
+  FOREIGN KEY (track_id) REFERENCES tracks(id),
   FOREIGN KEY (genre_id) REFERENCES genre(id)
 );

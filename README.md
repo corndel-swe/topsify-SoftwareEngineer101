@@ -51,7 +51,7 @@ To check if your deep dive tests pass, you can run:
 > You can also specify the tests to run like so:
 >
 > ```bash
-> ./test.sh 1a 1b 2a 2b 3a
+> ./test.sh 1a 1b 2a 2b 3a 3b 4a 4b 5a 5b 6a 6b 7a 7b 8a 8b 9a 9b
 > ```
 
 ## Exercises

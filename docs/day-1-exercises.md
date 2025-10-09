@@ -18,7 +18,7 @@ save them into .txt files.
 - [ ] To create the report, run
 
   ```bash
-  sqlite3 db/db.sqlite < exercises/1a.sql > reports/1a.txt
+  sqlite3 db/db.sqlite < exercises/9b.sql > reports/9b.txt
   ```
 
 - [ ] To run the tests, run
